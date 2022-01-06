@@ -11,6 +11,7 @@ services:
     volumes:
       - quickstatements-data:/quickstatements/data
       - ./extra-install.sh:/extra-install.sh
+      - ./files:/files
     environment:
       <<: *wikibase_extra_variables
 

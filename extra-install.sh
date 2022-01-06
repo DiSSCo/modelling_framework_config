@@ -9,3 +9,6 @@ bash /extra-install/QuickStatements.sh
 
 cp /files/dissco* /var/www/html/images/
 cp /files/*.php /var/www/html/LocalSettings.d/
+
+# fix bug in OpenIDConnect
+bash /extra-install/OpenIDConnect.sh
